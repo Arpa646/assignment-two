@@ -183,9 +183,9 @@ border: none;
 
 
 .box{
-    height: 230px;
-    width: 230px;
-    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    border: 1px solid rgb(219, 145, 33);
    display: flex;
    justify-content: center;
    align-items: center;
@@ -215,19 +215,22 @@ border: none;
 
 
 
-
-
-
-
-
-
-
-
-
 /* for mobile screen */
 @media only screen  and (max-width:576px) {
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     .container{
-    background-color: #FF900E;
+    
+    width: 100%;
    }
     .banner-top h2{
         font-size: 30px;
@@ -241,15 +244,19 @@ border: none;
     .header{
     
        flex-direction: column;
-       width: 300px;
+       width: 500px;
+       margin-bottom: 70px;
+       
+       margin-left: 30px;
     }
     .g3-title{
-        margin-left: 40px;
+        margin-left: 45px;
+        margin-bottom: 20px;
     }
     .linkk{
       flex-direction: column;
      list-style-type: none;
-      margin-left: 10px;
+      margin-left: 40px;
 
     
     }
@@ -257,21 +264,21 @@ border: none;
            box-shadow: 4px 4px 5px rgb(228, 214, 214);
            padding: 10px;
 
-           width: 50%;
+           width: 70%;
         }
         .banner-top{
-            width: 200px;
+            width: 400px;
             height: 150px;
-         background-color: aqua;
+     
             text-align: center;
-            margin: 10px;
+            margin: 0 auto;
             
         }
     .banner-img img {
-        width: 200px;
+        width: 300px;
        margin-top: 60px;
       
-        margin-left: 30px;
+        margin-left: 120px;
        
     }
     
@@ -279,28 +286,31 @@ border: none;
 .our-feature{
  flex-direction: column;
 
- width: 300px;
+ width: 500px;
+ 
 }
 .team{
 
     grid-template-columns: repeat(1,1fr);
+    margin-left: 130px;
+
     
    
 }
 .feature-left{
-    width:400px;
+    width:100%;
   
     margin-left: 10px;
     margin-top: 100px;
-    background-color: #FF900E;
+  
 
 }
 .feature-right{
     width: 50%;
     height: 300px;
 
-   background-color: #FF900E;
-  margin-left: 120px;
+   
+  margin-left: 160px;
   margin-top: 100px;
   text-align: center;
   
@@ -317,9 +327,8 @@ border: none;
 }
 .love-left{
     width: 80%;
-    margin-left: 90px;
-    background-color: #f3f3f323;
-    background-color: #FF900E;
+    margin-left: 120px;
+   
 }
 
 
@@ -386,19 +395,24 @@ height: 100px;
 }
 .boxs{
   flex-direction: column;
-    width: 400px;
-    background-color: #FF900E;
+    width: 300px;
+    gap: 20px;
+    
+  
    
+}
+.box{
+    margin-left: 50px;
 }
 .some-fact-text{
     width: 400px;
-    margin-left: 10px;
-    margin-bottom: 90px;
+    margin-left:80px;
+    margin-bottom: 70px;
     margin-top: 80px;
     
 }
 .some-fact{
-    background-color: #FF900E;
+   
     width: 100%;
 }
 
