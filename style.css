@@ -1,238 +1,291 @@
+/* cdn for font */
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500;700&family=Bebas+Neue&family=Charis+SIL:ital,wght@0,700;1,700&family=Gentium+Plus&family=Lato:wght@100&family=Open+Sans&family=Poppins:wght@300&family=Roboto+Condensed:wght@300&family=Roboto+Mono:ital@1&family=Roboto:ital,wght@1,100&family=Source+Sans+Pro:wght@600&display=swap');
 
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
+    ;
 }
-.header{
+
+/* header design */
+
+.header {
     display: flex;
     justify-content: space-between;
-      position: relative;
-      top: 30px;
+    position: relative;
+    top: 30px;
 }
-.linkk{
+
+.linkk {
     display: flex;
- list-style-type: none;
- margin-right: 70px;
+    list-style-type: none;
+    margin-right: 70px;
 
 }
-.linkk li{
+
+.linkk li {
     margin: 10px;
 }
-.g3-title{
+
+.g3-title {
     margin-left: 150px;
     font-size: 40px;
 }
 
+/* end */
 
 
-.banner-top{
+/* banner design */
+.banner-top {
     width: 50%;
     height: 150px;
- 
+
     text-align: center;
     margin: 0 auto;
     margin-top: 80px;
     margin-bottom: 80px;
 }
-.banner-top h2{
+
+.banner-top h2 {
     font-size: 50px;
-    
+
 }
-.banner-top p{
+
+.banner-top p {
     margin-top: 20px;
     font-size: 16px;
     line-height: 26px;
     color: #727272;
 
 }
-.total-banner{
+
+.total-banner {
     background-color: rgba(255, 144, 14, 0.1);
     padding-bottom: 20px;
-    
+
 }
+
 .banner-img img {
     width: 1200px;
-  
-  
+
+
     margin-left: 100px;
-   
+
 }
-.feature-left{
+
+/* end */
+
+
+
+/* feature section design */
+.feature-left {
     width: 40%;
-  
+
     margin-left: 150px;
     margin-top: 100px;
 
 }
-.team{
+
+.team {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 20px;
     grid-column-gap: 20px;
 }
-.our-feature{
+
+.our-feature {
     display: flex;
 }
 
+/* end */
 
 
 
-
-
-.team img{
-width: 300px;
-height: 300px;
-border-radius: 8px;
+/* team section design */
+.team img {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
 }
-.feature-right{
+
+.feature-right {
     width: 30%;
     height: 300px;
-   
-  margin-left: 150px;
-  margin-top: 300px;
+
+    margin-left: 150px;
+    margin-top: 300px;
 }
-.feature-right h1{
+
+.feature-right h1 {
     font-size: 40px;
 }
-.feature-right p{
+
+.feature-right p {
     font-size: 17px;
     line-height: 26px;
 }
-.feature-right .btn{
+
+.feature-right .btn {
     margin-top: 20px;
-     width: 150px;
-     height: 60px;
-     color: white;
-     background-color:
-     #FF900E ;
-     border: none;
-     font-size: 20px;
+    width: 150px;
+    height: 60px;
+    color: white;
+    background-color:
+        #FF900E;
+    border: none;
+    font-size: 20px;
 }
 
-.love-left{
+/* end */
+
+/* 
+love and enjoy section design */
+
+.love-left {
     width: 40%;
     margin-left: 100px;
     background-color: #f3f3f323;
-  
-   
-   
+
+
+
 }
-.love-left h1{
+
+.love-left h1 {
     font-size: 45px;
-    border-left:7px solid yellow;
+    border-left: 7px solid yellow;
     padding: 10px;
 }
-.love-left >p{
+
+.love-left>p {
     font-size: 19px;
     line-height: 29px;
     margin-top: 20px;
     margin-bottom: 30px;
- 
+
     width: 500px;
     margin-left: 20px;
-   
+
     color: #727272;
-   
-   
+
+
     margin-top: 20px;
-  
+
 }
-.desktop p{
+
+.desktop p {
     font-size: 19px;
     line-height: 29px;
     margin-top: 20px;
     margin-bottom: 30px;
- 
+
     width: 500px;
-   
- color: #727272;
-   
-   
+
+    color: #727272;
+
+
     margin-top: 20px;
 }
-.desktop{
-     box-shadow: 3px  7px 2px rgba(180, 177, 177, 0.11);
-     width: 520px;
-     height: 191px;
-     padding: 30px;
-    
-     background-color: #FFFFFF;
-     margin-top: 20px;
-     border-radius: 9px;
+
+.desktop {
+    box-shadow: 3px 7px 2px rgba(180, 177, 177, 0.11);
+    width: 520px;
+    height: 191px;
+    padding: 30px;
+
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    border-radius: 9px;
 }
-.love{
+
+.love {
     margin-top: 100px;
     display: flex;
 }
+
 .love-right {
-    
+
     width: 550px;
     height: 800px;
     margin-left: 40px;
 
 }
-.love-right img{
-  width: 100%;
- 
+
+.love-right img {
+    width: 100%;
+
 
 }
-.btn10{
-width: 300px;
-height: 150px;
-background-color: 
-#FF900E;
-color: aliceblue;
-font-size: 50px;
-font-weight: 700;
-position: relative;
-bottom: 100px;
-left: -40px;
-border: none;
+
+.btn10 {
+    width: 300px;
+    height: 150px;
+    background-color:
+        #FF900E;
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: 700;
+    position: relative;
+    bottom: 100px;
+    left: -40px;
+    border: none;
 }
 
 
-.box{
+/* end */
+
+
+/* box and bonus design */
+
+.box {
     height: 200px;
     width: 200px;
     border: 1px solid rgb(219, 145, 33);
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-   transition: transform 1s ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: transform 1s;
 
 }
-.box h3{
-    color: #727272;   
+
+.box h3 {
+    color: #727272;
     font-size: 20px;
 }
-.box h1{
-    color:#424242 ;
-}
-.box:hover{
-    box-shadow: 4px 4px 4px rgb(235, 229, 225);
-    border:2px solid rgb(219, 145, 33);;
-    transform: rotate(4deg);
-    animation: bonus 1s infinite alternate-reverse ;
-    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.445), rgba(214, 214, 214, 0.377));
-}
-@keyframes bonus{
-    0%{
-       border: 1px solid rgba(255, 255, 0, 0.973); 
-      
-    }
-50%{
-    border: 1px solid rgba(0, 162, 255, 0.973); 
-}
-75%{
-    border: 1px solid rgba(234, 0, 255, 0.973);  
+
+.box h1 {
+    color: #424242;
 }
 
-    100%{
+/* if i hove this an border animation create */
+.box:hover {
+    box-shadow: 4px 4px 4px rgb(235, 229, 225);
+    border: 2px solid rgb(219, 145, 33);
+    ;
+    transform: rotate(4deg);
+    animation: bonus 1s infinite alternate-reverse;
+    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.445), rgba(214, 214, 214, 0.377));
+}
+
+/* for animation i use keyframe */
+@keyframes bonus {
+    0% {
+        border: 1px solid rgba(255, 255, 0, 0.973);
+
+    }
+
+    50% {
+        border: 1px solid rgba(0, 162, 255, 0.973);
+    }
+
+    75% {
+        border: 1px solid rgba(234, 0, 255, 0.973);
+    }
+
+    100% {
         border: 1px solid black;
     }
 }
@@ -240,59 +293,74 @@ border: none;
 
 
 
-.boxs{
+.boxs {
     display: flex;
     width: 1000px;
     justify-content: space-between;
     margin: 0 auto;
 }
-.some-fact-text{
+
+/* end */
+
+/* some fact section design */
+.some-fact-text {
     width: 400px;
     margin-left: 100px;
     margin-bottom: 90px;
     margin-top: 80px;
 }
-.some-fact-text h2{
-        font-size: 40px;
-        font-weight: 700;
-}
-.some-fact-text p{
-        font-size: 16px;
-        font-weight: 400;
-        color: #727272;
+
+.some-fact-text h2 {
+    font-size: 40px;
+    font-weight: 700;
 }
 
-.sponsers{
+.some-fact-text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+
+
+/* sponser company design */
+.sponsers {
     width: 1000px;
-    
+
     margin: 0 auto;
 }
-.sponser-text{
-  
-   width: 400px;
-   margin: 0 auto;
-   text-align: center;
-   margin-top: 180px;
+
+.sponser-text {
+
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 180px;
 }
-.sponser-text h1{
-  
-  font-size: 40px;
-  font-weight: 800px;
+
+.sponser-text h1 {
+
+    font-size: 40px;
+    font-weight: 800px;
 }
-.company{
+
+.company {
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-top: 50px;
 }
-.company img{
+
+.company img {
     width: 120px;
-   
+
 }
-.copyright{
-    width: 990px ;
-    background-color: 
-    #FFF4E7;
+
+
+/* footer design */
+.copyright {
+    width: 990px;
+    background-color:
+        #FFF4E7;
     text-align: center;
     padding: 30px;
     margin-top: 90px;
@@ -301,154 +369,163 @@ border: none;
     font-size: 17px;
 }
 
-.best{
+.best {
     margin-top: 20px;
 }
 
-
-.bonus-section{
+/* bonus section design start */
+.bonus-section {
     width: 1200px;
-  
+
     margin: 0 auto;
     height: 600px;
     display: flex;
 
 }
-.bonus-section-left{
+
+.bonus-section-left {
     width: 40%;
     height: 100%;
-    
+
     padding-left: 40px;
     padding-top: 70px;
 }
-.bonus-section-right{
+
+.bonus-section-right {
     width: 50%;
     height: 100%;
-    
+
     margin-left: 30px;
     margin-top: 80px;
 }
-.bonus-section-right img{
+
+.bonus-section-right img {
     width: 100%;
     position: relative;
     top: 50px;
-   
+
 }
-.bonus-section-left h1{
+
+.bonus-section-left h1 {
     font-size: 60px;
     font-weight: 700;
     margin: 1px 1px 1px 1px;
 }
-.bonus-section-left p{
+
+.bonus-section-left p {
     font-size: 19px;
-   width: 400px;
+    width: 400px;
     margin: 1px 1px 1px 1px;
     color: #727272;
-  
-    
+
+
 }
-.para{
+
+.para {
     margin-top: 30px;
     padding: 10px;
-   
-    
-   
- 
+
+
+
+
 }
-.cv{
+
+.cv {
     margin-top: 20px;
 }
-.left-inner{
+
+.left-inner {
     height: 400px;
     box-shadow: 4px 4px 4px rgb(184, 180, 180);
     margin: 10px;
 }
-.inner{
+
+.inner {
     height: 190px;
     box-shadow: 4px 4px 4px rgb(184, 180, 180);
-  
+
     padding: 30px;
-   
-    
+
+
 }
-.inner p{
+
+.inner p {
     margin-bottom: 20px;
 }
-.cv-btn{
+
+.cv-btn {
     padding: 15px 25px;
     font-size: 18px;
     margin: 10px;
     border: none;
     box-shadow: 4px 4px 4px rgb(184, 180, 180);
-   
+
 }
 
-
+/* bonus section design end */
 
 
 
 
 
 /* for mobile screen */
-@media only screen  and (max-width:576px) {
-    
-
-/* ----------------------- */
-.bonus-section{
-    width: 100%;
-
-  
-    height: 600px;
-   /* flex-direction: column; */
+@media only screen and (max-width:576px) {
 
 
-}
-.inner{
-    width: 410px;
-    height: 170px;
-    box-shadow: 4px 4px 4px rgb(184, 180, 180);
-  
-    padding: 30px;
-}
-.bonus-section-left{
-    width: 95%;
-    height: 100%;
-    
-    padding-left: 40px;
-    padding-top: 53px;
-    
-}
-/* .left-inner{
+    /* ---------bonus section-------------- */
+    .bonus-section {
+        width: 100%;
+
+
+        height: 600px;
+        /* flex-direction: column; */
+
+
+    }
+
+    .inner {
+        width: 410px;
+        height: 170px;
+        box-shadow: 4px 4px 4px rgb(184, 180, 180);
+
+        padding: 30px;
+    }
+
+    .bonus-section-left {
+        width: 95%;
+        height: 100%;
+
+        padding-left: 40px;
+        padding-top: 53px;
+
+    }
+
+    /* .left-inner{
     margin-top: -320px;
 } */
-.cv-btn{
-    padding: 10px 20px;
-    font-size: 16px;
-    margin: 10px;
-    border: none;
-    box-shadow: 4px 4px 4px rgb(184, 180, 180);
-}
-.bonus-section-right img{
-  
-  width: 60%;
+    .cv-btn {
+        padding: 10px 20px;
+        font-size: 16px;
+        margin: 10px;
+        border: none;
+        box-shadow: 4px 4px 4px rgb(184, 180, 180);
+    }
 
-  top: 140px;
-  margin-left: 36px; 
-  /* margin-top: 10px;
-   */
-   
-}
-.bonus-section-right{
-    /* width: 60%;
-    height: 106%;
-background-color: #FF900E;
-    
-    margin-left: 30px;
-    margin-top: -40px;
-    position: absolute; */
-    display: none;
+    .bonus-section-right img {
 
-}
+        width: 60%;
+
+        top: 140px;
+        margin-left: 36px;
+
+
+    }
+
+    .bonus-section-right {
+
+        display: none;
+
+    }
 
 
 
@@ -458,7 +535,7 @@ background-color: #FF900E;
 
 
 
-/* ----------------------- */
+    /* ----------------------- */
 
 
 
@@ -472,254 +549,285 @@ background-color: #FF900E;
 
 
 
+    /* sponser design for mobile */
 
-    
-    .sponsers{
+    .sponsers {
         width: 70%;
-        
+
         text-align: center;
         margin-left: 74px;
-      
+
     }
-    .sponser-text{
-  
+
+    .sponser-text {
+
         width: 400px;
         margin: 0 auto;
         text-align: center;
         margin-top: 153px;
-        
-     }
-     .sponser-text h1{
-  font-size: 30px;
-  
 
-        
-     }
-    
-    .company{
-  flex-wrap: wrap;
+    }
+
+    .sponser-text h1 {
+        font-size: 30px;
+
+
+
+    }
+
+    .company {
+        flex-wrap: wrap;
         justify-content: space-around;
         margin: 13px;
-      
-    }
-    .company img{
-        width: 100px;
-        margin-top: 27px;
-       
-    }
-    .copyright{
-        width: 401px ;
-      
-   margin-left: -16px;
-     
-      
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    /* .container{
-    
-    width: 100%;
-   } */
-    .banner-top h2{
-        font-size: 30px;
-    }
-    .total-banner{
-      
-        padding-bottom: 20px;
-        width:480px;
-        
+
     }
 
-    .header{
-    
-       flex-direction: column;
-       width: 300px;
-       margin-bottom: 70px;
-       
-       
+    .company img {
+        width: 100px;
+        margin-top: 27px;
+
     }
-    .g3-title{
+
+    .copyright {
+        width: 401px;
+
+        margin-left: -16px;
+
+
+    }
+
+/* end */
+
+
+
+
+
+/* header section start */
+
+    .banner-top h2 {
+        font-size: 30px;
+    }
+
+    .total-banner {
+
+        padding-bottom: 20px;
+        width: 480px;
+
+    }
+
+    .header {
+
+        flex-direction: column;
+        width: 300px;
+        margin-bottom: 70px;
+
+
+    }
+
+    .g3-title {
         margin-left: 45px;
         margin-bottom: 20px;
         font-size: 30px;
     }
-    .linkk{
-      flex-direction: column;
-     list-style-type: none;
-      margin-left: 10px;
-    
 
-    
+    .linkk {
+        flex-direction: column;
+        list-style-type: none;
+        margin-left: 10px;
+
+
+
     }
-    .linkk li{
-           box-shadow: 4px 4px 5px rgb(228, 214, 214);
-           padding: 10px;
 
-           width: 70%;
-        }
-        .banner-top{
-            width: 400px;
-            height: 150px;
-     
-            text-align: center;
-            margin: 0 auto;
-            
-        }
+    .linkk li {
+        box-shadow: 4px 4px 5px rgb(228, 214, 214);
+        padding: 10px;
+
+        width: 70%;
+    }
+
+    .banner-top {
+        width: 400px;
+        height: 150px;
+
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
     .banner-img img {
         width: 300px;
-       margin-top: 60px;
-      
+        margin-top: 60px;
+
         margin-left: 120px;
-       
+
     }
-    
 
-.our-feature{
- flex-direction: column;
-
- width: 450px;
-
- 
-}
-.team{
-
-    grid-template-columns: repeat(1,1fr);
-    margin-left: 100px;
-
-    
-   
-}
-.feature-left{
-    width:100%;
-  
-    margin-left: 10px;
-    margin-top: 100px;
-  
-
-}
-.feature-right{
-    width: 85%;
-    height: 300px;
-
-   
-  margin-left: 69px;
-  margin-top: 100px;
-  text-align: center;
-  
-}
-.love{
-    margin-top: 100px;
-    flex-direction: column;
- 
-    width: 80%;
-    
-   
-    
-    
-}
-.love-left{
-    width: 80%;
-    margin-left: 120px;
-   
-}
+    /* end */
 
 
-.love-right {
-  
-    
-    width: 350px;
-    height: 500px;
-    margin-left: 100px;
- 
-    margin-top: 30px;
-    
-    
 
-}
 
-.love-right  img{
-    width: 80%;
-    margin-left: 10px;
-}
+    /* feature section start */
+    .our-feature {
+        flex-direction: column;
 
-.desktop{
-     
-     width: 340px;
-     height: 250px;
-     margin-left: -30px;
-    
-   
-    
+        width: 450px;
 
-}
-.desktop p{
-   
-  
- 
-    width: 300px;
-   
- color: #727272;
 
-   
-   
-   
-}
-.love-left >p{
-   
-    width: 300px;
- 
-   
-    color: #727272;
-   
+    }
 
-  
-}
+    .team {
 
-.btn10{
-    left: -30px;
-    width: 200px;
-height: 70px;
-margin-top: 40px;
-font-size: 36px;
-}
-.love-left h1{
-    font-size: 35px;
-    border-left:7px solid yellow;
-    padding: 10px;
-   
-    width: 300px;
-}
-.boxs{
-  flex-direction: column;
-    width: 300px;
-    gap: 20px;
-   
-    margin-bottom: 40px;
-    
-  
-   
-}
-.box{
-    margin-left: 50px;
-    
-}
-.some-fact-text{
-    width: 400px;
-    margin-left:80px;
-    margin-bottom: 70px;
-    margin-top: 10px;
-    
-}
-.some-fact{
-   
-    width: 100%;
-}
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 100px;
+
+
+
+    }
+
+    .feature-left {
+        width: 100%;
+
+        margin-left: 10px;
+        margin-top: 100px;
+
+
+    }
+
+    .feature-right {
+        width: 85%;
+        height: 300px;
+
+
+        margin-left: 69px;
+        margin-top: 100px;
+        text-align: center;
+
+    }
+    /* end */
+
+
+    /* love and enjoy scetion start */
+    .love {
+        margin-top: 100px;
+        flex-direction: column;
+
+        width: 80%;
+
+
+
+
+    }
+
+    .love-left {
+        width: 80%;
+        margin-left: 120px;
+
+    }
+
+
+    .love-right {
+
+
+        width: 350px;
+        height: 500px;
+        margin-left: 100px;
+
+        margin-top: 30px;
+
+
+
+    }
+
+    .love-right img {
+        width: 80%;
+        margin-left: 10px;
+    }
+
+    .desktop {
+
+        width: 340px;
+        height: 250px;
+        margin-left: -30px;
+
+
+
+
+    }
+
+    .desktop p {
+
+
+
+        width: 300px;
+
+        color: #727272;
+
+
+
+
+    }
+
+    .love-left>p {
+
+        width: 300px;
+
+
+        color: #727272;
+
+
+
+    }
+
+    .btn10 {
+        left: -30px;
+        width: 200px;
+        height: 70px;
+        margin-top: 40px;
+        font-size: 36px;
+    }
+
+    .love-left h1 {
+        font-size: 35px;
+        border-left: 7px solid yellow;
+        padding: 10px;
+
+        width: 300px;
+    }
+
+    /* end */
+
+/* 
+    box part design email project */
+    .boxs {
+        flex-direction: column;
+        width: 300px;
+        gap: 20px;
+
+        margin-bottom: 40px;
+
+
+
+    }
+
+    .box {
+        margin-left: 50px;
+
+    }
+
+    .some-fact-text {
+        width: 400px;
+        margin-left: 80px;
+        margin-bottom: 70px;
+        margin-top: 10px;
+
+    }
+
+    .some-fact {
+
+        width: 100%;
+    }
 
 
 
