@@ -399,7 +399,7 @@ border: none;
 
   
     height: 600px;
-   flex-direction: column-reverse;
+   /* flex-direction: column; */
 
 
 }
@@ -415,8 +415,12 @@ border: none;
     height: 100%;
     
     padding-left: 40px;
-    padding-top: 342px;
+    padding-top: 53px;
+    
 }
+/* .left-inner{
+    margin-top: -320px;
+} */
 .cv-btn{
     padding: 10px 20px;
     font-size: 16px;
@@ -425,23 +429,24 @@ border: none;
     box-shadow: 4px 4px 4px rgb(184, 180, 180);
 }
 .bonus-section-right img{
-   
- width: 90%;
+  
+  width: 60%;
 
-  top: 120px;
-  margin-left: 30px;
+  top: 140px;
+  margin-left: 36px; 
   /* margin-top: 10px;
    */
    
 }
 .bonus-section-right{
-    width: 78%;
+    /* width: 60%;
     height: 106%;
-
+background-color: #FF900E;
     
     margin-left: 30px;
     margin-top: -40px;
-    position: absolute;
+    position: absolute; */
+    display: none;
 
 }
 
@@ -481,7 +486,8 @@ border: none;
         width: 400px;
         margin: 0 auto;
         text-align: center;
-        margin-top: 378px;
+        margin-top: 153px;
+        
      }
      .sponser-text h1{
   font-size: 30px;
