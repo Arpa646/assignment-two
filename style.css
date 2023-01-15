@@ -474,15 +474,16 @@ border: none;
         font-size: 30px;
     }
     .total-banner{
-        background-color: rgb(240, 138, 22);
+      
         padding-bottom: 20px;
-        width:450px;
+        width:480px;
+        
     }
 
     .header{
     
        flex-direction: column;
-       width: 500px;
+       width: 300px;
        margin-bottom: 70px;
        
        
@@ -495,7 +496,7 @@ border: none;
       flex-direction: column;
      list-style-type: none;
       margin-left: 10px;
-      background-color: aqua;
+    
 
     
     }
@@ -526,7 +527,7 @@ border: none;
  flex-direction: column;
 
  width: 450px;
- background-color: #FF900E;
+
  
 }
 .team{
